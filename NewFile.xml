@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE human [
+<!ELEMENT human (student*)>
+<!ELEMENT student (name,university,city,description,degree)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT university (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT degree (#PCDATA)>
+]>
+
+<human>
+	<student>
+		<name>Samarth Yadav</name>
+		<university>Pace University</university>
+		<city>New York</city>
+		<description>Graduate Student at Pace University </description>
+		<degree>M.S. Computer Science </degree>
+	</student>
+</human>
